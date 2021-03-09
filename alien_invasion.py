@@ -27,7 +27,7 @@ def run_game():
     while True:
         # 监视键盘和鼠标事件
         gf.check_events(ai_settings, screen, ship, bullets)
-        # 更新飞船/子弹位置
+        # 更新飞船位置
         ship.update()
         # 刷新子弹
         gf.update_bullets(bullets)
